@@ -1,0 +1,108 @@
+/* Global Styles */
+
+body {
+  background-color: #9bbb8a; /* Sage green background */
+  color: #333; /* Text color contrasting well with background */
+  font-family: arial, sans-serif; /* Catchy font */
+  font-size: 16px; /* Adequate text size */
+}
+
+/* Title Styles */
+.section-title-class {
+  color: #ffdb58; /* Mustard yellow color for section titles */
+  font-family: Impact, sans-serif; /* Impact font for section titles */
+}
+
+
+/* Header Styles */
+.header-class {
+  background-color: #8b8682; /* Sage green background */
+  color: #fff; /* White font color for better visibility */
+  padding: 20px; /* Spacing around the header */
+  font-family: Arial, sans-serif
+}
+
+/* Navigation Styles */
+.nav-class {
+  background-color: #c292a1; /* Muave background */
+  color: #333; /* Text color contrasting well with background */
+  padding: 10px; /* Spacing around navigation links */
+}
+
+.nav-class a {
+  color: #333; /* Text color for navigation links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.nav-class a:hover {
+  font-weight: bold; /* Bold font weight on hover */
+}
+
+/* Title Styles */
+.title-class {
+  color: #8b8682; /* Sage green color for titles */
+}
+
+.section-title-class {
+  color: #ffdb58; /* Mustard yellow color for section titles */
+}
+
+/* Text Styles */
+.text-class {
+  color: #333; /* Text color contrasting well with background */
+}
+
+/* Image Styles */
+.image-class {
+  border: 2px solid #000000; /* black border for images */
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Form Styles */
+.form-class input[type="text"],
+.form-class input[type="email"],
+.form-class input[type="password"] {
+  background-color: #f5f5f5; /* Mauve background for form fields */
+  color: #333; /* Text color contrasting well with background */
+  border: 1px solid #ccc; /* Light border around form fields */
+  padding: 8px; /* Spacing inside form fields */
+  margin-bottom: 10px; /* Spacing between form fields */
+  font-family: Arial, sans-serif
+}
+
+.button-class {
+  background-color: #c292a1; /* Muave background for buttons */
+  color: #333; /* Text color contrasting well with background */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Spacing inside buttons */
+  cursor: pointer; /* Cursor style on hover */
+  font-family: Arial, sans-serif
+}
+
+.button-class:hover {
+  background-color: #fcd116; /* yellow on button hover */
+}
+
+/* Footer Styles */
+.footer-class {
+  background-color: #8b8682; /* Sage  background for footer */
+  color: #fff; /* White font color for better visibility */
+  padding: 20px; /* Spacing around the footer */
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .header-class {
+    padding: 15px; /* Decrease padding for header */
+  }
+  
+  .nav-class {
+    padding: 8px; /* Decrease padding for navigation */
+  }
+  
+  .footer-class {
+    padding: 15px; /* Decrease padding for footer */
+  }
+}
